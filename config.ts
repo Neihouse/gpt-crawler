@@ -1,9 +1,9 @@
 import { Config } from "./src/config";
 
 export const defaultConfig: Config = {
-  url: "https://www.builder.io/c/docs/developers",
-  match: "https://www.builder.io/c/docs/**",
-  maxPagesToCrawl: 50,
+  url: "https://developer.ebay.com/develop/guides/",
+  match: "https://developer.ebay.com/develop/guides/**",
+  maxPagesToCrawl: 500,
   outputFileName: "output.json",
   maxTokens: 2000000,
 };
